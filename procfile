@@ -1,1 +1,1 @@
-worker: python MCGEN
+worker: python MCGEN.py
