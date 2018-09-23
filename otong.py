@@ -56,4 +56,4 @@ async def on_message(message):
     if message.content.startswith('!python3.6'):
         await client.send_message(message.channel,'https://www.python.org/ftp/python/3.6.5/python-3.6.5.exe')
         
-client.run('NDg4NTQwNDE0MDUyMTM5MDA5.Doh5dw.UWB_szdRlPAuU41QpvVu6jOa8yE')
+client.run(os.getenv('TOKEN'))
