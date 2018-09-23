@@ -10,13 +10,6 @@ from discord import Game
 Client = discord.client
 client = commands.Bot(command_prefix = '!')
 Clientdiscord = discord.Client()
-
-
-@client.event
-async def on_member_join(member):
-    await client.change_presence(game=Game(name='!help'))
-    await client.send_message(member, 'hi i am bot by @Blue Gaming#5147 ')
-    print('Sent message to ' + member.name)
 async def on_ready():
     await client.change_presence(game=Game(name='      '))
     print('Ready, Freddy') 
