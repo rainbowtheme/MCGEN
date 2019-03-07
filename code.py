@@ -11,8 +11,6 @@ Client = discord.client
 client = commands.Bot(command_prefix = '!')
 Clientdiscord = discord.Client()
 
-Category = "553028002213265414"
-
 
 @client.event
 async def on_ready():
